@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\draw [domain=${1:0:pi},smooth,samples=${2:100},variable=\x,rotate around ${3:x=20}]$NOT_DEFINED plot (\x,${4:0},${5:{sin(4*\x r)\}});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>plot</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>plot function</description>
+</snippet>

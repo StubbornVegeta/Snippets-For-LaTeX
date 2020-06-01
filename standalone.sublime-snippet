@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[tikz]{standalone}
+\standaloneconfig{border=5pt}
+\usepackage{xeCJK}
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stand</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>tikz...standalone...5pt...CJK</description>
+</snippet>

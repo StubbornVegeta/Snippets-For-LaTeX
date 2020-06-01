@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\clip ${1:[xshift=0cm]} ${2:path};
+% ------------------------------------------------------
+% \clip [xshift=1cm,yshift=2cm] (0,0) circle(2);
+% \clip [xshift=0cm] (0,0)--(2,-1)--(1,0)--(2,1)--cycle;
+% \node at coordinate + image path
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>clip</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>\clip [xshift,yshift] path </description>
+</snippet>

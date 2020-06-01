@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\node [${1:draw}]$NOT_DEFINED(${2:point name}) at (${3:coordinate}) {${4:content}};
+% ------------------------------------------------------------------------
+% shape=rectangle,draw=blue,fill=red!30,line width=1pt,scale=1.6,rotate=90
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>node</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>\node [] ...</description>
+</snippet>

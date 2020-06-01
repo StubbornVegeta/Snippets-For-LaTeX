@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+\tikzset{
+  fang/.style={
+    rectangle,
+    minimum size = 6mm,
+    very thick,
+    draw = blue!50!black!50,
+    top color=white,
+    bottom color=blue!50!black!30,
+    font=\it,
+  }
+}
+% ---------------------------------------
+% \begin{tikzpicture}
+%   \node(a) at (0,0) [fang] {content};
+% \end{tikzpicture}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tikzset</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>predefine node style</description>
+</snippet>
