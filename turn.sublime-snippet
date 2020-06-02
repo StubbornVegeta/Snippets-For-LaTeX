@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+([turn]$NOT_DEFINED${1:angle}:${2:length})
+]]></content>
+
+	<tabTrigger>turn</tabTrigger>
+	<!-- filetype -->
+	<scope>text.tex.latex</scope>
+	<description>([turn]angle:length)</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\draw ${1:coordinate} circle [radius=${2:0.5}]$NOT_DEFINED;
+]]></content>
+
+	<tabTrigger>circle</tabTrigger>
+	<!-- filetype -->
+	<scope>text.tex.latex</scope>
+	<description>draw a circle</description>
+</snippet>
